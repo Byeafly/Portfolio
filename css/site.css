@@ -1,0 +1,161 @@
+body {
+    font-family:'Franklin Gothic Medium'; 
+    background-image: url('./images/background.png');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #274e13;
+}
+footer {
+    height: 150px;
+    width: 100%;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: #274e13;
+    text-align: center;
+}
+
+.footerTopText {
+    margin-top: 30px;
+}
+nav li{ 
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 5%;
+}
+nav a {
+    background-color: #257804;
+    color: black;
+    border-radius: 10px;
+    border: solid 2px #257804;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #000000;
+    color: #257804;
+}
+
+.wrapper {
+    flex: 1;
+}
+#catPhoto {
+    max-width: 500px;
+    width: 400px;
+    padding: 10px;
+    margin: .3%;
+    background-color: #257804;
+    border-radius: 10px;
+}
+h1 {
+    margin: 10px auto;
+    height: 100%;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #257804;
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+h2 {
+    height: 100%;
+    padding: .1%;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #257804;
+}
+h3 {
+    height: 100%;
+    padding: .1%;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #27c009;
+    margin-left: 45px;
+}
+
+p {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #257804;
+    padding: .3%;
+    margin: .3%;
+}
+.contactInfo {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #257804;
+    padding: .3%;
+    margin: .3%;
+    width: fit-content;
+}
+q{
+    height: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    background-color: #257804;
+    padding: .3%;
+    display: flex;
+    margin: .3%;
+}
+
+.slide-show img {
+    max-width: 500px;
+    width: 462px;
+    height: 280px;
+    padding: 10px;
+    margin: .3%;
+    background-color: #257804;
+    border-radius: 10px;
+}
+.slide-show{
+    display: inline-block;
+    margin-right: 20%;
+}
+.rightInLineBlock {
+    display: inline-block;
+    padding: 0;
+    margin-left: 10%;
+}
+.leftInLineBlock {
+    display: inline-block;
+    width: 40%;
+}
+.leftInLineBlock p {
+    margin-bottom: 20px;
+}
+
+ul li img {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+ul li {
+    display: inline-block;
+}
+ul li p{
+    width: 200px;
+    margin-left: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 5px;
+}
+.contactInfo li {
+    display: block;
+}
+
