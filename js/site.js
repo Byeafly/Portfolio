@@ -4,26 +4,26 @@ console.log('js loaded');
 const currentImage = document.getElementById('currentImage');
 
 let images = [
-    'images/Overwatch.jpg',
-    'images/tracer.jpg',
-    'images/zen.jpg',
-    'images/genji.jpg',
-    'images/moira.jpg'
+  'images/Overwatch.jpg',
+  'images/tracer.jpg',
+  'images/zen.jpg',
+  'images/genji.jpg',
+  'images/moira.jpg'
 ];
 let currentImageIndex = 0;
 
 currentImage.src = images[currentImageIndex];
 
 
-function updateSlides(){
-    currentImageIndex++; 
+function updateSlides() {
+  currentImageIndex++;
 
-    if(currentImageIndex >= images.length){ 
-        currentImageIndex = 0;
-    }
+  if (currentImageIndex >= images.length) {
+    currentImageIndex = 0;
+  }
 
-    console.log('changing image', currentImageIndex);
-    currentImage.src = images[currentImageIndex];
+  console.log('changing image', currentImageIndex);
+  currentImage.src = images[currentImageIndex];
 }
 
 setInterval(updateSlides, 2000);

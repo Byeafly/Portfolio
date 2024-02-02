@@ -1,5 +1,5 @@
 body {
-    font-family:'Franklin Gothic Medium'; 
+    font-family: 'Franklin Gothic Medium';
     background-image: url('./images/background.png');
     background-color: #000000;
     background-repeat: no-repeat;
@@ -15,6 +15,7 @@ header {
     border-radius: 10px;
     background-color: #274e13;
 }
+
 footer {
     height: 150px;
     width: 100%;
@@ -27,12 +28,14 @@ footer {
 .footerTopText {
     margin-top: 30px;
 }
-nav li{ 
+
+nav li {
     display: inline-block;
     margin-top: 50px;
     margin-bottom: 20px;
     margin-right: 5%;
 }
+
 nav a {
     background-color: #257804;
     color: black;
@@ -51,6 +54,7 @@ nav a:hover {
 .wrapper {
     flex: 1;
 }
+
 #catPhoto {
     max-width: 500px;
     width: 400px;
@@ -59,6 +63,7 @@ nav a:hover {
     background-color: #257804;
     border-radius: 10px;
 }
+
 h1 {
     margin: 10px auto;
     height: 100%;
@@ -70,6 +75,7 @@ h1 {
     padding-left: 30px;
     padding-right: 30px;
 }
+
 h2 {
     height: 100%;
     padding: .1%;
@@ -77,6 +83,7 @@ h2 {
     border-radius: 10px;
     background-color: #257804;
 }
+
 h3 {
     height: 100%;
     padding: .1%;
@@ -95,6 +102,7 @@ p {
     padding: .3%;
     margin: .3%;
 }
+
 .contactInfo {
     height: 100%;
     width: 100%;
@@ -104,7 +112,8 @@ p {
     margin: .3%;
     width: fit-content;
 }
-q{
+
+q {
     height: 100%;
     max-width: 400px;
     border-radius: 10px;
@@ -123,19 +132,23 @@ q{
     background-color: #257804;
     border-radius: 10px;
 }
-.slide-show{
+
+.slide-show {
     display: inline-block;
     margin-right: 20%;
 }
+
 .rightInLineBlock {
     display: inline-block;
     padding: 0;
     margin-left: 10%;
 }
+
 .leftInLineBlock {
     display: inline-block;
     width: 40%;
 }
+
 .leftInLineBlock p {
     margin-bottom: 20px;
 }
@@ -145,17 +158,19 @@ ul li img {
     height: 200px;
     margin-left: 20px;
 }
+
 ul li {
     display: inline-block;
 }
-ul li p{
+
+ul li p {
     width: 200px;
     margin-left: 16px;
     margin-bottom: 5px;
     text-align: center;
     padding: 5px;
 }
+
 .contactInfo li {
     display: block;
 }
-
